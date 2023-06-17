@@ -13,7 +13,7 @@ banner:
 features:
     
   - title: "Upload Your Designs"
-    image: "public/images/service-1.png"
+    image: "/images/service-1.png"
     content: "You can upload, configure your CAD Designs. Get AI generated feedbacks and cost saving suggestions."
     title_small: "Your Small Title"
     bulletpoints:
@@ -25,7 +25,7 @@ features:
       link: "#"
 
   - title: "Discover Manufacturers and Sent RFQs"
-    image: "public/images/service-2.png"
+    image: "/images/service-2.png"
     content: "Compare vendors on the basis of location, Time, Ratings and Certifications."
     title_small: "Your Small Title"
     bulletpoints:
@@ -38,7 +38,7 @@ features:
       link: "https://calendly.com/megamerchant/megamerchant"
 
   - title: "Streamlined Communication"
-    image: "public/images/service-3.png"
+    image: "/images/service-3.png"
     content: "Fastrack Internal approvals with multiple teams and Experience smooth External Communication channel."
     bulletpoints:
       - "Instantly load static sites for better user experience and SEO."
@@ -51,7 +51,7 @@ features:
       link: ""
 
   - title: "Manage Production"
-    image: "public/images/service-4.png"
+    image: "/images/service-4.png"
     content: "Track all your parts, Sub-assemblies and Assemblies in diffenent phases of production, all at the same Dashboard."
     bulletpoints:
       - "Instantly load static sites for better user experience and SEO."
@@ -64,7 +64,7 @@ features:
       link: ""
 
   - title: "Track from design to delivery "
-    image: "public/images/Frame 1000003004.png"
+    image: "/images/Frame 1000003004.png"
     content: "Apart from managing the production, you can also track individual parts through complete visiblity of supply chain."
     bulletpoints:
       - "Instantly load static sites for better user experience and SEO."
