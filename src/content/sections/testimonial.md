@@ -9,7 +9,7 @@ testimonials:
   - name: "Aerospace and Aeronautics"
    
    
-    avatar: "public/images/megamerchant website illustrations.png"
+    avatar: "/images/megamerchant website illustrations.png"
     
   - name: "Robotics and Automation"
    
