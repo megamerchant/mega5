@@ -1,0 +1,99 @@
+---
+import { markdownify } from "@/lib/utils/textConverter";
+import { Image } from "@astrojs/image/components";
+const { testimonial } = Astro.props;
+---
+
+{
+  testimonial.data.enable && (
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="mx-auto mb-12 text-center md:col-10 lg:col-8 xl:col-6">
+            <h2 set:html={markdownify(testimonial.data.title)} class="mb-4" />
+           
+          </div>
+          <div class="col-12">
+            <div class="swiper testimonial-slider">
+              <div class="swiper-wrapper">
+                {testimonial.data.testimonials.map(
+                  (item: {
+                    avatar: string;
+                    content: string;
+                    name: string;
+                    designation: string;
+                  }) => (
+                    <div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <Image
+                              height={300}
+                              width={400}
+                              
+                              src={item.avatar}
+                              alt={item.name}
+                            />
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;" >
+                          
+                          <h3
+                              set:text={item.name}
+                              class="h5 font-primary font-semibold"
+                            />
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div>
+                  )
+                )}
+              </div>
+              <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+<script>
+  import Swiper, { Autoplay, Pagination } from "swiper";
+  import "swiper/css";
+  import "swiper/css/pagination";
+
+  new Swiper(".testimonial-slider", {
+    modules: [Pagination, Autoplay],
+    spaceBetween: 24,
+    loop: true,
+    loopedSlides: 2,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".testimonial-slider-pagination",
+      type: "bullets",
+      clickable: true,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+    },
+  });
+</script>

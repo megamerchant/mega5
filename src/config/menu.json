@@ -1,0 +1,121 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Capabilities",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "3D Printing",
+          "url": "/3d"
+        },
+        {
+          "name": "CNC Machining",
+          "url": "/cnc"
+        },
+        {
+          "name": "Injection Moulding",
+          "url": "/inject"
+        },
+        {
+          "name": "Sheet Metal Fabrication",
+          "url": "/sheet"
+        },
+        {
+          "name": "Vaccum Casting",
+          "url": "/vc"
+        },
+       
+        {
+          "name": "CAD Designing",
+          "url": "/cad"
+        }
+      ]
+    },
+    {
+      "name": "Industries",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Aerospace",
+          "url": "/aero"
+        },
+        {
+          "name": "Robotics & Automation",
+          "url": "/automation"
+        },
+        {
+          "name": "Automotive",
+          "url": "/automotive"
+        },
+        {
+          "name": "Biomedical Tech",
+          "url": "/biotech"
+        },
+        {
+          "name": "ConsumerTech",
+          "url": "/consumer"
+        },
+        {
+          "name": "Drone",
+          "url": "/drone"
+        },
+        {
+          "name": "Electric Vehicle",
+          "url": "/ev"
+        },{
+          "name": "FMCG",
+          "url": "/fmcg"
+        },{
+          "name": "General Engineering",
+          "url": "/generalengineering"
+        }
+      ]
+    },
+    
+    {
+      "name": "Discover Vendors",
+      "url": "/searchcopy"
+    },
+    
+    
+    
+    {
+      "name": "Blogs",
+      "url": "/blog"
+    }
+
+  ],
+  "footer": [
+    {
+      "name": "3D Printing",
+      "url": "/3d"
+    },
+    {
+      "name": "CAD Designing",
+      "url": "/cad"
+    },
+    {
+      "name": "CNC Machining",
+      "url": "/cnc"
+    },
+    {
+      "name": "Injection Moulding",
+      "url": "/inject"
+    },
+    {
+      "name": "Sheet Metal Fabrication",
+      "url": "/sheet"
+    },
+    {
+      "name": "Vaccum Casting",
+      "url": "/vc"
+    }
+  ]
+  
+}

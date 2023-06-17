@@ -1,0 +1,22 @@
+---
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import Search2 from "@/layouts/Search copy";
+import { getSinglePage } from "@/lib/contentParser.astro";
+
+const { company_folder } = config.settings;
+
+// Retrieve all articles
+const posts = await getSinglePage(company_folder);
+
+// List of items to search in
+const searchList = posts.map((item) => ({
+  slug: item.slug,
+  data: item.data,
+  content: item.body,
+}));
+---
+
+<Base title={`Search`}>
+  <Search2 client:load searchList={searchList} />
+</Base>

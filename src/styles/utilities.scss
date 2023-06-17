@@ -1,0 +1,24 @@
+.bg-gradient {
+  @apply bg-gradient-to-r from-[rgba(249,249,249,1)] from-[0.53%] to-[rgba(249,249,249,1)] to-[55.28%] dark:from-darkmode-theme-light dark:to-darkmode-body;
+}
+
+.bg-gradient2 {
+  @apply bg-gradient-to-r from-[#332c4e] from-[0.53%] to-[#a28cf8] to-[80.28%] dark:from-darkmode-theme-light dark:to-darkmode-body;
+}
+
+.rounded-sm {
+  @apply rounded-[4px];
+}
+.rounded {
+  @apply rounded-[6px];
+}
+.rounded-lg {
+  @apply rounded-[12px];
+}
+.rounded-xl {
+  @apply rounded-[16px];
+}
+
+.shadow {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+}

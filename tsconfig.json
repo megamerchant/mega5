@@ -1,0 +1,26 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "allowJs": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/function-components/*": ["./src/layouts/function-components/*"],
+      "@/components/*": ["./src/layouts/components/*"],
+      "@/shortcodes/*": ["./src/layouts/shortcodes/*"],
+      "@/partials/*": ["./src/layouts/partials/*"],
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx","src/**/*"],
+  
+}

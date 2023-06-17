@@ -1,0 +1,92 @@
+---
+
+
+import type { FeatureItems } from "src/types/index.d copy";
+const features: Array<FeatureItems> = [
+  {
+    title: "Battery pack",
+    description:
+      "Lithium-ion cell assembly",
+    image: "/images/Battery pack.png",
+  },
+  {
+    title: "Electric motor",
+    description:
+      "CNC machining",
+    image: "/images/Electric motor.png",
+  },
+  {
+    title: "Power electronics",
+    description:
+      "PCB manufacturing",
+    image: "public/images/Power electronics.png",
+  },
+  {
+    title: "Charging port",
+    description:
+      "Injection molding",
+    image: "/images/Charging port.png",
+  },
+  
+  {
+    title: "Motor controller",
+    description:
+      "Electronics assembly",
+    image: "/images/Motor controller.png",
+  },
+  {
+    title: "Cooling system",
+    description:
+      "Metal fabrication",
+    image: "/images/Cooling system.png",
+  },
+  {
+    title: "Dashboard",
+    description:
+      "Plastic molding",
+    image: "/images/Dashboard 2.png",
+  },
+  {
+    title: "Chassis",
+    description:
+      "Composite manufacturing",
+    image: "/images/Chassis.png",
+  },
+  {
+    title: "Electric drivetrain",
+    description:
+      "Welding",
+    image: "/images/Electric drivetrain.png",
+  },
+  
+];
+---
+
+<section class="flex scroll-mt-24 flex-col items-center gap-4 space-y-8">
+  <div class="mt-16 md:mt-0">
+    <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight " style="padding-top: 5rem;">
+      Capabilities
+    </h2>
+  </div>
+<div title="Components" id="features" >
+    <!-- <Fragment slot="lead">
+      <h3 style="padding-left: 400px; padding-right: 400px;"> Astro comes batteries included.It takes
+      the best parts of
+     state-of-the-art tools and adds its own innovations</h3>
+    </Fragment> -->
+    <ul class="grid max-w-7xl grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3" >
+      {
+        features.map(({ title, description, image }) => (
+          <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6 rounded-lg shadow" >
+            <div class="h-64 w-64 flex items-center justify-center rounded-full  text-white" >
+       
+              <img src={image} alt="">
+            </div>
+            <h3 class="text-center font-bold text-lg">{title}</h3>
+            <p class="text-center text-white-600 text-sm">{description}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>

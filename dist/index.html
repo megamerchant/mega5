@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <!-- theme meta -->
+    <meta name="theme-name" content="astroplate">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
+    <meta name="generator" content="Astro v2.5.6">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- google font css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&#38;family=Inter&#38;display=swap" rel="stylesheet">
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+    <!-- title -->
+    <title>
+      megamerchant
+    </title>
+
+    <!-- canonical url -->
+    
+
+    <!-- noindex robots -->
+    
+
+    <!-- meta-description -->
+    <meta name="description" content="astro and tailwind boilerplate">
+
+    <!-- author from config.json -->
+    <meta name="author" content="zeon.studio">
+
+    <!-- og-title -->
+    <meta property="og:title" content="megamerchant">
+
+    <!-- og-description -->
+    <meta property="og:description" content="astro and tailwind boilerplate">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+
+    <!-- twitter-title -->
+    <meta name="twitter:title" content="megamerchant">
+
+    <!-- twitter-description -->
+    <meta name="twitter:description" content="astro and tailwind boilerplate">
+
+    <!-- og-image -->
+    <meta property="og:image" content="/images/og-image.png">
+
+    <!-- twitter-image -->
+    <meta name="twitter:image" content="/images/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/_astro/hoisted.bcfe3ab7.css" />
+<link rel="stylesheet" href="/_astro/404.61a518fc.css" />
+<link rel="stylesheet" href="/_astro/index.760b21b1.css" /><script type="module" src="/_astro/hoisted.88885af5.js"></script></head>
+  <body>
+    
+    <header class="header z-30 sticky top-0">
+  <nav class="navbar container">
+    <!-- logo -->
+    <div class="order-0">
+      <a href="/" class="navbar-brand inline-block">
+  
+        <img class="inline-block dark:hidden" alt="megamerchant" fit="contain" background="rgba(0,0,0,0)" style="height:29px;width:155px" width="310" height="58" src="/_astro/logo_ftFtV.png" loading="lazy" decoding="async">
+        <img class="hidden dark:inline-block" alt="megamerchant" fit="contain" background="rgba(0,0,0,0)" style="height:29px;width:155px" width="310" height="58" src="/_astro/logo-darkmode_FUet5.png" loading="lazy" decoding="async">
+</a>
+    </div>
+    <!-- navbar toggler -->
+    <input id="nav-toggle" type="checkbox" class="hidden">
+    <label id="show-button" for="nav-toggle" class="order-3 flex cursor-pointer items-center text-dark dark:text-white lg:order-1 lg:hidden">
+      <svg class="h-6 fill-current" viewBox="0 0 20 20">
+        <title>Menu Open</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+    </label>
+    <label id="hide-button" for="nav-toggle" class="order-3 hidden cursor-pointer items-center text-dark dark:text-white lg:order-1">
+      <svg class="h-6 fill-current" viewBox="0 0 20 20">
+        <title>Menu Close</title>
+        <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    <!-- /navbar toggler -->
+    <ul id="nav-menu" class="navbar-nav order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
+      <li class="nav-item">
+                <a href="/" class="nav-link block active">
+                  Home
+                </a>
+              </li><li class="nav-item nav-dropdown group relative">
+                <span class="nav-link inline-flex items-center ">
+                  Capabilities
+                  <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+                  </svg>
+                </span>
+                <ul class="nav-dropdown-list  hidden group-hover:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100" style="column-count: 3;">
+                  <li class="nav-dropdown-item">
+                      <a href="/3d" class="nav-dropdown-link block false">
+                        3D Printing
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/cnc" class="nav-dropdown-link block false">
+                        CNC Machining
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/inject" class="nav-dropdown-link block false">
+                        Injection Moulding
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/sheet" class="nav-dropdown-link block false">
+                        Sheet Metal Fabrication
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/vc" class="nav-dropdown-link block false">
+                        Vaccum Casting
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/cad" class="nav-dropdown-link block false">
+                        CAD Designing
+                      </a>
+                    </li>
+                </ul>
+              </li><li class="nav-item nav-dropdown group relative">
+                <span class="nav-link inline-flex items-center ">
+                  Industries
+                  <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+                  </svg>
+                </span>
+                <ul class="nav-dropdown-list  hidden group-hover:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100" style="column-count: 3;">
+                  <li class="nav-dropdown-item">
+                      <a href="/aero" class="nav-dropdown-link block false">
+                        Aerospace
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/automation" class="nav-dropdown-link block false">
+                        Robotics &amp; Automation
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/automotive" class="nav-dropdown-link block false">
+                        Automotive
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/biotech" class="nav-dropdown-link block false">
+                        Biomedical Tech
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/consumer" class="nav-dropdown-link block false">
+                        ConsumerTech
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/drone" class="nav-dropdown-link block false">
+                        Drone
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/ev" class="nav-dropdown-link block false">
+                        Electric Vehicle
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/fmcg" class="nav-dropdown-link block false">
+                        FMCG
+                      </a>
+                    </li><li class="nav-dropdown-item">
+                      <a href="/generalengineering" class="nav-dropdown-link block false">
+                        General Engineering
+                      </a>
+                    </li>
+                </ul>
+              </li><li class="nav-item">
+                <a href="/searchcopy" class="nav-link block false">
+                  Discover Vendors
+                </a>
+              </li><li class="nav-item">
+                <a href="/blog" class="nav-link block false">
+                  Blogs
+                </a>
+              </li>
+      <li class="mt-4 inline-block lg:hidden">
+            <a class="btn btn-outline-primary btn-sm" href="https://calendly.com/megamerchant/megamerchant">
+              Get Started
+            </a>
+          </li>
+    </ul>
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+      <a class="mr-5 inline-block border-r border-border pr-5 text-xl text-dark hover:text-primary dark:border-darkmode-border dark:text-white" href="/search" aria-label="search">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M456.69 421.39L362.6 327.3a173.81 173.81 0 0034.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 00327.3 362.6l94.09 94.09a25 25 0 0035.3-35.3zM97.92 222.72a124.8 124.8 0 11124.8 124.8 124.95 124.95 0 01-124.8-124.8z"></path></svg>
+          </a>
+      <div class="theme-switcher mr-5">
+      <input id="theme-switcher" data-theme-switcher type="checkbox">
+      <label for="theme-switcher">
+        <span class="sr-only">theme switcher</span>
+        <span>
+          <svg class="absolute left-[4px] top-[4px] z-10 opacity-100 dark:opacity-0" viewBox="0 0 56 56" fill="#fff" height="16" width="16">
+            <path d="M30 4.6c0-1-.9-2-2-2a2 2 0 0 0-2 2v5c0 1 .9 2 2 2s2-1 2-2Zm9.6 9a2 2 0 0 0 0 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 0 0 0-2.9 2 2 0 0 0-3 0Zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3ZM28 16a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12Zm23.3 14c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 0 0-2 2c0 1.1 1 2 2 2ZM4.7 26a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2Zm37.8 13.6a2 2 0 0 0-3 0 2 2 0 0 0 0 2.9l3.6 3.5a2 2 0 0 0 2.9 0c.8-.8.8-2.1 0-3ZM10 43.1a2 2 0 0 0 0 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0Zm20 3.4c0-1.1-.9-2-2-2a2 2 0 0 0-2 2v4.9c0 1 .9 2 2 2s2-1 2-2Z"></path>
+          </svg>
+          <svg class="absolute left-[4px] top-[4px] z-10 opacity-0 dark:opacity-100" viewBox="0 0 24 24" fill="none" height="16" width="16">
+            <path fill="#000" fill-rule="evenodd" clip-rule="evenodd" d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4 0 0 0 8.7 1.8c1-.3 2 .5 1.5 1.5v.1a10.3 10.3 0 0 1-9.4 6.2A10.3 10.3 0 0 1 3.2 6.7c1-2 2.9-3.5 4.9-4.4Z"></path>
+          </svg>
+        </span>
+      </label>
+    </div>
+
+<script>(function(){const defaultTheme = "system";
+
+  var darkMode = defaultTheme === "dark" ? true : false;
+  var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    darkMode = true;
+  }
+  if (localStorage.getItem("theme") === "dark") {
+    darkMode = true;
+  } else if (localStorage.getItem("theme") === "light") {
+    darkMode = false;
+  }
+  if (darkMode) {
+    document.documentElement.classList.toggle("dark");
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    [].forEach.call(themeSwitch, function (ts) {
+      ts.checked = darkMode ? true : false;
+      ts.addEventListener("click", () => {
+        document.documentElement.classList.toggle("dark");
+        localStorage.setItem(
+          "theme",
+          document.documentElement.classList.contains("dark") ? "dark" : "light"
+        );
+      });
+    });
+  });
+})();</script>
+      <a class="btn btn-outline-primary btn-sm hidden lg:inline-block" href="https://calendly.com/megamerchant/megamerchant">
+            Get Started
+          </a>
+    </div>
+  </nav>
+</header>
+    <main id="main-content">
+      
+  
+  
+  <section class="section pt-14 astro-J7PV25F6">
+    <div class="container astro-J7PV25F6">
+      <div class="row justify-center astro-J7PV25F6">
+        <div class="mb-16 text-center lg:col-7 astro-J7PV25F6">
+          <h1 class="mb-4 astro-J7PV25F6">The Ultimate Manufacturing OutSourcing Platform</h1>
+          <p class="mb-8 astro-J7PV25F6">Megamerchant helps Startups and Brands develop Rapid Prototypes, Discover Manufacturers and Vendors, Optimise the whole process and Find Sustainable Alternatives.</p>
+          <a class="btn btn-primary astro-J7PV25F6" href="https://calendly.com/megamerchant/megamerchant">
+                Schedule A Meet
+              </a>
+        </div>
+        <div class="col-12 astro-J7PV25F6">
+              <img src="/images/banner.png" width="1272" height="403" alt="banner image" class="astro-J7PV25F6">
+            </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+  <section class="section-sm bg-gradient astro-J7PV25F6">
+        <div class="container astro-J7PV25F6">
+          <div class="row items-center justify-center astro-J7PV25F6">
+            <div class="mb:md-0 mb-6 mr-20  ml-10 md:col-5 false astro-J7PV25F6">
+              <img fit="contain" background="rgba(0,0,0,0)" alt="Upload Your Designs" class="astro-J7PV25F6" width="520" height="480" src="/_astro/service-1_ZKPzsz.png" loading="lazy" decoding="async">
+            </div>
+            <div class="md:col-7 lg:col-5 false astro-J7PV25F6">
+              <h2 class="mb-4 astro-J7PV25F6">Upload Your Designs</h2>
+
+              <p class="mb-8 text-lg astro-J7PV25F6">You can upload, configure your CAD Designs. Get AI generated feedbacks and cost saving suggestions.</p>
+              
+              
+            </div>
+          </div>
+        </div>
+      </section><section class="section-sm false astro-J7PV25F6">
+        <div class="container astro-J7PV25F6">
+          <div class="row items-center justify-center astro-J7PV25F6">
+            <div class="mb:md-0 mb-6 mr-20  ml-10 md:col-5 md:order-2 astro-J7PV25F6">
+              <img fit="contain" background="rgba(0,0,0,0)" alt="Discover Manufacturers and Sent RFQs" class="astro-J7PV25F6" width="520" height="480" src="/_astro/service-2_lE8mn.png" loading="lazy" decoding="async">
+            </div>
+            <div class="md:col-7 lg:col-5 md:order-1 astro-J7PV25F6">
+              <h2 class="mb-4 astro-J7PV25F6">Discover Manufacturers and Sent RFQs</h2>
+
+              <p class="mb-8 text-lg astro-J7PV25F6">Compare vendors on the basis of location, Time, Ratings and Certifications.</p>
+              
+              <a class="btn btn-primary mt-5 astro-J7PV25F6" href="https://calendly.com/megamerchant/megamerchant">
+                  Get Started Now
+                </a>
+            </div>
+          </div>
+        </div>
+      </section><section class="section-sm bg-gradient astro-J7PV25F6">
+        <div class="container astro-J7PV25F6">
+          <div class="row items-center justify-center astro-J7PV25F6">
+            <div class="mb:md-0 mb-6 mr-20  ml-10 md:col-5 false astro-J7PV25F6">
+              <img fit="contain" background="rgba(0,0,0,0)" alt="Streamlined Communication" class="astro-J7PV25F6" width="520" height="480" src="/_astro/service-3_1t9Qck.png" loading="lazy" decoding="async">
+            </div>
+            <div class="md:col-7 lg:col-5 false astro-J7PV25F6">
+              <h2 class="mb-4 astro-J7PV25F6">Streamlined Communication</h2>
+
+              <p class="mb-8 text-lg astro-J7PV25F6">Fastrack Internal approvals with multiple teams and Experience smooth External Communication channel.</p>
+              
+              
+            </div>
+          </div>
+        </div>
+      </section><section class="section-sm false astro-J7PV25F6">
+        <div class="container astro-J7PV25F6">
+          <div class="row items-center justify-center astro-J7PV25F6">
+            <div class="mb:md-0 mb-6 mr-20  ml-10 md:col-5 md:order-2 astro-J7PV25F6">
+              <img fit="contain" background="rgba(0,0,0,0)" alt="Manage Production" class="astro-J7PV25F6" width="520" height="480" src="/_astro/service-4_Z2twyLE.png" loading="lazy" decoding="async">
+            </div>
+            <div class="md:col-7 lg:col-5 md:order-1 astro-J7PV25F6">
+              <h2 class="mb-4 astro-J7PV25F6">Manage Production</h2>
+
+              <p class="mb-8 text-lg astro-J7PV25F6">Track all your parts, Sub-assemblies and Assemblies in diffenent phases of production, all at the same Dashboard.</p>
+              
+              
+            </div>
+          </div>
+        </div>
+      </section><section class="section-sm bg-gradient astro-J7PV25F6">
+        <div class="container astro-J7PV25F6">
+          <div class="row items-center justify-center astro-J7PV25F6">
+            <div class="mb:md-0 mb-6 mr-20  ml-10 md:col-5 false astro-J7PV25F6">
+              <img fit="contain" background="rgba(0,0,0,0)" alt="Track from design to delivery " class="astro-J7PV25F6" width="520" height="480" src="/_astro/Frame 1000003004_19AjrH.png" loading="lazy" decoding="async">
+            </div>
+            <div class="md:col-7 lg:col-5 false astro-J7PV25F6">
+              <h2 class="mb-4 astro-J7PV25F6">Track from design to delivery </h2>
+
+              <p class="mb-8 text-lg astro-J7PV25F6">Apart from managing the production, you can also track individual parts through complete visiblity of supply chain.</p>
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  <section class="flex scroll-mt-24 flex-col items-center gap-4 space-y-8">
+  <div class="mt-16 md:mt-0">
+    <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight " style="padding-top: 5rem;">
+      Capabilities
+    </h2>
+  </div>
+  <div title="Capabilities" id="features">
+    <!-- <Fragment slot="lead">
+      <h3 style="padding-left: 400px; padding-right: 400px;"> Astro comes batteries included.It takes
+      the best parts of
+     state-of-the-art tools and adds its own innovations</h3>
+    </Fragment> -->
+    <ul class="grid max-w-7xl grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3">
+      <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6 rounded-lg shadow dark:shadow-gray-100">
+            <div class="h-64 w-64 flex items-center justify-center rounded-full  text-white">
+       
+              <img src="public/images/cad design.png" alt="">
+            </div>
+            <h3 class="text-center font-bold text-lg">CAD Designing</h3>
+            <p class="text-center text-white-600 text-sm">CAD Designing Services, 2D Drafting, 3D Modelling, Rendering, Animation.</p>
+          </li><li class="flex flex-col items-center gap-4 border border-default bg-offset p-6 rounded-lg shadow dark:shadow-gray-100">
+            <div class="h-64 w-64 flex items-center justify-center rounded-full  text-white">
+       
+              <img src="public/images/car3dprinted.jpeg" alt="">
+            </div>
+            <h3 class="text-center font-bold text-lg">3D Printing</h3>
+            <p class="text-center text-white-600 text-sm">Faster Prototyping with FDM, SLA, SLS, SLM, MJF, Polyjet, DMLS, available in 189 materials.</p>
+          </li><li class="flex flex-col items-center gap-4 border border-default bg-offset p-6 rounded-lg shadow dark:shadow-gray-100">
+            <div class="h-64 w-64 flex items-center justify-center rounded-full  text-white">
+       
+              <img src="public/images/gears.png" alt="">
+            </div>
+            <h3 class="text-center font-bold text-lg">CNC Machining</h3>
+            <p class="text-center text-white-600 text-sm">CNC Milling (3, 4 and 5 Axis), Turning &amp; Machining Post Processing in 10+ finishes</p>
+          </li><li class="flex flex-col items-center gap-4 border border-default bg-offset p-6 rounded-lg shadow dark:shadow-gray-100">
+            <div class="h-64 w-64 flex items-center justify-center rounded-full  text-white">
+       
+              <img src="public/images/injection molding.png" alt="">
+            </div>
+            <h3 class="text-center font-bold text-lg">Injection Molding</h3>
+            <p class="text-center text-white-600 text-sm">Rapid Tooling, Family Molds, Multi-Cavity Models. T1 samples in as fast as 15 days.</p>
+          </li><li class="flex flex-col items-center gap-4 border border-default bg-offset p-6 rounded-lg shadow dark:shadow-gray-100">
+            <div class="h-64 w-64 flex items-center justify-center rounded-full  text-white">
+       
+              <img src="public/images/sheet metal.jpeg" alt="">
+            </div>
+            <h3 class="text-center font-bold text-lg">Sheet Metal Works</h3>
+            <p class="text-center text-white-600 text-sm">Sheet Metal Stamping, Cutting, Bending, Forming and more. Parts delivered within 1 day.</p>
+          </li><li class="flex flex-col items-center gap-4 border border-default bg-offset p-6 rounded-lg shadow dark:shadow-gray-100">
+            <div class="h-64 w-64 flex items-center justify-center rounded-full  text-white">
+       
+              <img src="public/images/vacuum cated.png" alt="">
+            </div>
+            <h3 class="text-center font-bold text-lg">Vaccum Casting</h3>
+            <p class="text-center text-white-600 text-sm">Production quality parts in just 10 days, even at low volumes. 140+ materials to choose from.</p>
+          </li>
+    </ul>
+  </div>
+</section>
+  <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="mx-auto mb-12 text-center md:col-10 lg:col-8 xl:col-6">
+            <h2 class="mb-4">Industries</h2>
+           
+          </div>
+          <div class="col-12">
+            <div class="swiper testimonial-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <img alt="Aerospace and Aeronautics" width="400" height="300" src="/_astro/megamerchant website illustrations_ZXH1h8.png" loading="lazy" decoding="async">
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;">
+                          
+                          <h3 class="h5 font-primary font-semibold">Aerospace and Aeronautics</h3>
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div><div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <img alt="Robotics and Automation" width="400" height="300" src="/_astro/Robotics_Z1v63T7.png" loading="lazy" decoding="async">
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;">
+                          
+                          <h3 class="h5 font-primary font-semibold">Robotics and Automation</h3>
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div><div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <img alt="Automotive Technologies " width="400" height="300" src="/_astro/Automotive_Zdm3MD.png" loading="lazy" decoding="async">
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;">
+                          
+                          <h3 class="h5 font-primary font-semibold">Automotive Technologies </h3>
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div><div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <img alt="Biomedical Technologies and Equipments" width="400" height="300" src="/_astro/Biomedical_V1NzN.png" loading="lazy" decoding="async">
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;">
+                          
+                          <h3 class="h5 font-primary font-semibold">Biomedical Technologies and Equipments</h3>
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div><div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <img alt="Consumer Electronics and Devices" width="400" height="300" src="/_astro/Consumer Electronics_ZiWtrJ.png" loading="lazy" decoding="async">
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;">
+                          
+                          <h3 class="h5 font-primary font-semibold">Consumer Electronics and Devices</h3>
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div><div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <img alt="Drone and Quadcopters" width="400" height="300" src="/_astro/Drones_Z19uoVW.png" loading="lazy" decoding="async">
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;">
+                          
+                          <h3 class="h5 font-primary font-semibold">Drone and Quadcopters</h3>
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div><div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <img alt="Electric Vehicles" width="400" height="300" src="/_astro/22_Z2moX72.png" loading="lazy" decoding="async">
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;">
+                          
+                          <h3 class="h5 font-primary font-semibold">Electric Vehicles</h3>
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div><div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <img alt="FMCG and Packaging" width="400" height="300" src="/_astro/FMCG_rpMOH.png" loading="lazy" decoding="async">
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;">
+                          
+                          <h3 class="h5 font-primary font-semibold">FMCG and Packaging</h3>
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div><div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <img alt="General Engineering" width="400" height="300" src="/_astro/General Engineering_n5pmG.png" loading="lazy" decoding="async">
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;">
+                          
+                          <h3 class="h5 font-primary font-semibold">General Engineering</h3>
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div><div class="swiper-slide">
+                      <div class="rounded-lg bg-theme-light px-1 py-1 dark:bg-darkmode-theme-light">
+                        
+                        
+                  
+                          <div class="text-dark dark:text-white ">
+                            
+                            <div class="text-dark dark:text-white flex items-center justify-center">
+                            <img alt="Consumer Electronics and Devices" width="400" height="300" src="/_astro/Consumer Electronics_ZiWtrJ.png" loading="lazy" decoding="async">
+                          </div>
+                            
+                          <div class="text-dark dark:text-white text-center " style="padding-top: 1rem; padding-bottom: 1rem;">
+                          
+                          <h3 class="h5 font-primary font-semibold">Consumer Electronics and Devices</h3>
+                          </div>
+                          </div>
+                          <div class="ml-4">
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div>
+              </div>
+              <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="mb-28">
+      <div class="container" style="padding-top: 80px;">
+        <div class="rounded-xl bg-theme-light px-4 py-16 dark:bg-darkmode-theme-light xl:p-20">
+          <div class="row items-center justify-between">
+            <div class="mb-10 md:col-5 lg:col-4 md:order-2 md:mb-0">
+              <img class="w-full" alt="cta-image" width="392" height="390" src="/_astro/call-to-action_ZqGvCd.png" loading="lazy" decoding="async">
+            </div>
+            <div class="md:col-7 md:order-1">
+              <h2 class="mb-2">Ready to build your next product with Megamerchant?</h2>
+              <p class="mb-6">Experience the future of Manufacturing with hastle free AI-powered contract manfacturing platform with complete Production Tracking,  Quality assurance and promised on-time Delivery at Competitive Pricing.</p>
+              <a class="btn btn-primary" href="https://calendly.com/megamerchant/megamerchant">
+                  Get Started Now
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+    <footer class="bg-theme-light dark:bg-darkmode-theme-light">
+  <div class="container">
+    <div class="row items-center py-10">
+      <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
+        <a href="/" class="navbar-brand inline-block">
+  
+        <img class="inline-block dark:hidden" alt="megamerchant" fit="contain" background="rgba(0,0,0,0)" style="height:29px;width:155px" width="310" height="58" src="/_astro/logo_ftFtV.png" loading="lazy" decoding="async">
+        <img class="hidden dark:inline-block" alt="megamerchant" fit="contain" background="rgba(0,0,0,0)" style="height:29px;width:155px" width="310" height="58" src="/_astro/logo-darkmode_FUet5.png" loading="lazy" decoding="async">
+</a>
+      </div>
+      <div class="mb-8 text-center lg:col-6 lg:mb-0">
+        <ul>
+          <li class="m-3 inline-block">
+                <a href="/3d">3D Printing</a>
+              </li><li class="m-3 inline-block">
+                <a href="/cad">CAD Designing</a>
+              </li><li class="m-3 inline-block">
+                <a href="/cnc">CNC Machining</a>
+              </li><li class="m-3 inline-block">
+                <a href="/inject">Injection Moulding</a>
+              </li><li class="m-3 inline-block">
+                <a href="/sheet">Sheet Metal Fabrication</a>
+              </li><li class="m-3 inline-block">
+                <a href="/vc">Vaccum Casting</a>
+              </li>
+        </ul>
+      </div>
+      <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
+        <ul class="social-icons">
+  <li class="inline-block">
+        <a aria-label="facebook" href="https://www.facebook.com/groups/megamerchant/" target="_blank" rel="noopener noreferrer nofollow">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z"></path></svg>
+        </a>
+      </li>
+  <li class="inline-block">
+        <a aria-label="twitter" href="https://twitter.com/megamerchantin" target="_blank" rel="noopener noreferrer nofollow">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M496 109.5a201.8 201.8 0 01-56.55 15.3 97.51 97.51 0 0043.33-53.6 197.74 197.74 0 01-62.56 23.5A99.14 99.14 0 00348.31 64c-54.42 0-98.46 43.4-98.46 96.9a93.21 93.21 0 002.54 22.1 280.7 280.7 0 01-203-101.3A95.69 95.69 0 0036 130.4c0 33.6 17.53 63.3 44 80.7A97.5 97.5 0 0135.22 199v1.2c0 47 34 86.1 79 95a100.76 100.76 0 01-25.94 3.4 94.38 94.38 0 01-18.51-1.8c12.51 38.5 48.92 66.5 92.05 67.3A199.59 199.59 0 0139.5 405.6a203 203 0 01-23.5-1.4A278.68 278.68 0 00166.74 448c181.36 0 280.44-147.7 280.44-275.8 0-4.2-.11-8.4-.31-12.5A198.48 198.48 0 00496 109.5z"></path></svg>
+        </a>
+      </li>
+  
+  <li class="inline-block">
+        <a aria-label="instagram" href="https://www.instagram.com/megamerchant.in/" target="_blank" rel="noopener noreferrer nofollow">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z"></path><path d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z"></path></svg>
+        </a>
+      </li>
+  
+  <li class="inline-block">
+        <a aria-label="linkedin" href="https://www.linkedin.com/company/megahq/" target="_blank" rel="noopener noreferrer nofollow">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z"></path></svg>
+        </a>
+      </li>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</ul>
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-border py-7 dark:border-darkmode-border">
+    <div class="container text-center text-light dark:text-darkmode-light">
+      <p>Designed And Developed by MegaMerchant</p>
+    </div>
+  </div>
+</footer>
+  </body></html>

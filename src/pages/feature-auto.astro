@@ -1,0 +1,110 @@
+---
+
+
+import type { FeatureItems } from "src/types/index.d copy";
+const features: Array<FeatureItems> = [
+  {
+    title: "Control panel",
+    description:
+      "CNC milling",
+    image: "/images/Control Panel.png",
+  },
+  {
+    title: "Conveyor belt",
+    description:
+      "Assembly",
+    image: "/images/Conveyer Belt.png",
+  },
+  {
+    title: "Robotics arm",
+    description:
+      "3D printing",
+    image: "/images/Robotic Arm.png",
+  },
+  {
+    title: "Sensor housing",
+    description:
+      "Injection molding",
+    image: "/images/Sensor housing.png",
+  },
+  {
+    title: "Actuator",
+    description:
+      "Precision machining",
+    image: "/images/accurator.png",
+  },
+  {
+    title: "Control switch",
+    description:
+      "Wiring",
+    image: "/images/Control Switch.png",
+  },
+  {
+    title: "Pneumatic cylinder",
+    description:
+      "Metal fabrication",
+    image: "/images/Pneumatic cylinder.png",
+  },
+  {
+    title: "PLC enclosure",
+    description:
+      "Sheet metal forming",
+    image: "/images/PLC enclosure.png",
+  },
+  {
+    title: "Motor coupling",
+    description:
+      "Machining",
+    image: "/images/motor coupling.png",
+  },
+  {
+    title: "HMI display",
+    description:
+      "Electronic assembly",
+    image: "/images/HMI Display.png",
+  },
+  {
+    title: "Gearbox",
+    description:
+      "Casting",
+    image: "/images/Gear Box.png",
+  },
+  {
+    title: "Relay module",
+    description:
+      "Soldering",
+    image: "/images/Relay module.png",
+  },
+];
+---
+
+<section class="flex scroll-mt-24 flex-col items-center gap-4 space-y-8">
+  <div class="mt-16 md:mt-0">
+    <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight " style="padding-top: 5rem;">
+      Capabilities
+    </h2>
+  </div>
+<div title="Components" id="features" >
+    <!-- <Fragment slot="lead">
+      <h3 style="padding-left: 400px; padding-right: 400px;"> Astro comes batteries included.It takes
+      the best parts of
+     state-of-the-art tools and adds its own innovations</h3>
+    </Fragment> -->
+    
+    <ul class="grid max-w-7xl grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3" >
+      {
+        features.map(({ title, description, image }) => (
+          <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6 rounded-lg shadow" >
+            <div class="h-64 w-64 flex items-center justify-center rounded-full  text-white" >
+       
+              <img src={image} alt="">
+            </div>
+            <h3 class="text-center font-bold text-lg">{title}</h3>
+            <p class="text-center text-white-600 text-sm">{description}</p>
+          </li>
+        ))
+      }
+    </ul>
+</div>
+
+</section>
