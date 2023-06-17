@@ -14,39 +14,39 @@ testimonials:
   - name: "Robotics and Automation"
    
    
-    avatar: "public/images/Robotics.png"
+    avatar: "/images/Robotics.png"
   
   
   - name: "Automotive Technologies "
 
-    avatar: "public/images/Automotive.png"
+    avatar: "/images/Automotive.png"
 
 
   - name: "Biomedical Technologies and Equipments"
  
-    avatar: "public/images/Biomedical.png"
+    avatar: "/images/Biomedical.png"
 
   - name: "Consumer Electronics and Devices"
 
-    avatar: "public/images/Consumer Electronics.png"
+    avatar: "/images/Consumer Electronics.png"
   
   - name: "Drone and Quadcopters"
  
-    avatar: "public/images/Drones.png"
+    avatar: "/images/Drones.png"
 
   - name: "Electric Vehicles"
 
-    avatar: "public/images/22.png"
+    avatar: "/images/22.png"
 
   - name: "FMCG and Packaging"
 
-    avatar: "public/images/FMCG.png"
+    avatar: "/images/FMCG.png"
   
   - name: "General Engineering"
 
-    avatar: "public/images/General Engineering.png"
+    avatar: "/images/General Engineering.png"
   
   - name: "Consumer Electronics and Devices"
 
-    avatar: "public/images/Consumer Electronics.png"
+    avatar: "/images/Consumer Electronics.png"
 ---
