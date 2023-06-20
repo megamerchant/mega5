@@ -3,9 +3,9 @@ title: "Solid State battery: The new Technology to be researched on "
 meta_title: ""
 description: "this is meta description"
 date: 2023-05-17T05:00:00Z
-image: "/images/droneblog.jpeg"
+image: "[/images/droneblog.jpeg](https://www.google.com/url?sa=i&url=https%3A%2F%2Feurope.autonews.com%2Fsuppliers%2Fsolid-state-batteries-promise-faster-charging-and-greater-range&psig=AOvVaw0ME-ueqkQdU78WuoajJtnh&ust=1687345066380000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMCRhqzY0f8CFQAAAAAdAAAAABAE)"
 categories: ["Drones", "Robotics and Automation"]
-author: "Shashank"
+author: "Ravinder"
 tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software" ]
 draft: false
 ---
