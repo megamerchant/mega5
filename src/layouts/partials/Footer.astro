@@ -7,6 +7,23 @@ import social from "@/config/social.json";
 import { markdownify } from "@/lib/utils/textConverter";
 
 const { footer }: { footer: { name: string; url: string }[] } = menu;
+
+
+export interface ChildNavigationLink {
+  name: string;
+  url: string;
+}
+
+export interface NavigationLink {
+  name: string;
+  url: string;
+  hasChildren?: boolean;
+  children?: ChildNavigationLink[];
+}
+
+const { main }: { main: NavigationLink[] } = menu;
+const { navigation_button2, settings } = config;
+const { pathname } = Astro.url;
 ---
 
 <footer class="bg-theme-light dark:bg-darkmode-theme-light">
@@ -26,9 +43,10 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
           }
         </ul>
       </div>
-      <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
+      <div class="mb-8 text-center justify-center items-center lg:col-3 lg:mb-0 lg:mt-0 ">
         <Social source={social} className="social-icons" />
-       <div  class="text-center  mt-4 ">{
+      
+        <div  class="text-center  mt-4 ">{
           navigation_button2.enable && (
             <a
               class="btn btn-primary lg:inline-block"
@@ -38,6 +56,7 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
             </a>
           )
         }</div>
+        
       </div>
     </div>
   </div>
