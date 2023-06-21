@@ -28,6 +28,16 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
       </div>
       <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
         <Social source={social} className="social-icons" />
+       <div  class="text-center  mt-4 ">{
+          navigation_button2.enable && (
+            <a
+              class="btn btn-primary lg:inline-block"
+              href={navigation_button2.link}
+            >
+              {navigation_button2.label}
+            </a>
+          )
+        }</div>
       </div>
     </div>
   </div>
