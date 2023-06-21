@@ -33,6 +33,11 @@
     "label": "Get Started",
     "link": "https://calendly.com/megamerchant/megamerchant"
   },
+   "navigation_button2": {
+    "enable": true,
+    "label": "Become a partner supplier",
+    "link": "https://forms.zohopublic.in/megamerchant/form/megamerchantPartner/formperma/iwlPkjHRY0Ohko0LSkm3PIdhktBHB3K9uq9YJrL4-mo?zf_rszfm=1&zf_enablecamera=true%27;"
+  },
 
   "disqus": {
     "enable": true,
