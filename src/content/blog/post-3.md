@@ -10,7 +10,7 @@ tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software
 draft: false
 ---
 
-## Introduction
+
 
 In recent years, lithium batteries have become the go-to power source for everything from smartphones to electric SUVs. This trend was sparked by Elon Musk's introduction of the Tesla Roadster, an all-electric sports car powered by lithium batteries. However, despite their widespread use, lithium batteries come with their fair share of challenges. From safety concerns to slow charging times and limited driving range, there is room for improvement. Enter solid-state batteries, the promising new technology that could revolutionize the energy storage landscape.
 
