@@ -4,7 +4,7 @@ meta_title: ""
 description: "this is meta description"
 date: 2023-05-17T05:00:00Z
 image: "https://d3hnfqimznafg0.cloudfront.net/image-handler/ts/20230106080002/ri/1000/src/images/Article_Images/ImageForArticle_1647_16730100006136213.jpg"
-categories: ["EVs", "Automotive and Automation"]
+categories: ["EV", "Automotive"]
 author: "Ravinder"
 tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software" ]
 draft: false
