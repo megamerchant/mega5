@@ -10,7 +10,7 @@ tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software
 draft: false
 ---
 
-## Introduction
+
 
 A frightening video of a Chinese yard packed with tens of thousands of abandoned automobiles from brands like NETA and BYD recently went viral. The sight begs the issue of why these registered and ostensibly in good shape automobiles have been ignored. This blog explores the root causes of this situation, exposing the complex network of subsidies, dishonest business practises, and a dearth of sales and marketing tactics in the Chinese electric vehicle (EV) sector.
 
