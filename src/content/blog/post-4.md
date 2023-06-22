@@ -5,7 +5,7 @@ description: "this is meta description"
 date: 2023-05-17T05:00:00Z
 image: "https://im.indiatimes.in/media/content/2019/Mar/electric_car_graveyard_china_electric_car_waste_china_electric_car_rental_china_electric_car_rent_1553585134_725x725.jpg"
 categories: ["EV", "Automotive"]
-author: "Shashank"
+author: "Ravinder"
 tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software" ]
 draft: false
 ---
