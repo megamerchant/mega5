@@ -5,7 +5,7 @@ description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/evblog.jpeg"
 categories: ["EV", "Automotive"]
-author: "Ravinder Kuhad"
+author: "Ravinder"
 tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software" ]
 draft: false
 ---
