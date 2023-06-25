@@ -3,7 +3,7 @@ title: "The new way of manufacturing: Introduction to Cloud-based manufacturing"
 meta_title: ""
 description: "this is meta description"
 date: 2023-05-21T05:00:00Z
-image: ""
+image: "https://www.cnet.com/a/img/resize/6b18ce83f8f4a7931c13b22470de9d579a479178/hub/2019/03/06/b2a79f41-9c2c-4ec2-aba5-e5a25f669459/vw-meb-chassis-id-buggy.jpg?auto=webp&fit=crop&height=675&width=1200"
 categories: ["Manufacturing","Outsourcing"]
 author: "Shashank"
 tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software" ]
