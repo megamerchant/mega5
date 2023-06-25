@@ -3,7 +3,7 @@ title: "Exploring Additive Manufacturing for Startup Success"
 meta_title: "3D Printing and CNC Machining for startups. Unlock the Potential of Additive Manufacturing in Your Startup"
 description: "this is meta description"
 date: 2023-05-21T05:00:00Z
-image: "https://unsplash.com/photos/EX2efYBjAuI"
+image: ""
 categories: ["Manufacturing","Outsourcing"]
 author: "Shashank"
 tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software" ]
