@@ -3,7 +3,7 @@ title: "A Beginner's Guide to Rapid Prototyping for Startups"
 meta_title: "rapid prototyping"
 description: "Looking to start a hardware startup in India? Discover how rapid prototyping can benefit your startup's manufacturing process. Learn about different methods and technologies."
 date: 2023-05-21T05:00:00Z
-image: ""
+image: "https://d1kw0nx8pk9xzh.cloudfront.net/0001/72b2d95e/resize-crop(w=1027;h=578):sharpen(level=0):output(format=jpeg)/up/dt/2022/11/Traditional-subtractive-methods-required-outrageous-sums-of-money-The-basics-of-additive-manufacturing-2.jpg"
 categories: ["Manufacturing","Outsourcing"]
 author: "Shashank"
 tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software" ]
