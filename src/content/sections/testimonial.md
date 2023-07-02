@@ -28,7 +28,7 @@ testimonials:
 
   - name: "Consumer Electronics and Devices"
 
-    avatar: "/images/Consumer Electronics.png"
+    avatar: "https://images.squarespace-cdn.com/content/v1/5ae8bd2f89c1723a6f6f557b/1565794679412-QOSVO1NO2JF104SBAU4R/ke17ZwdGBToddI8pDm48kLNOpry3EJgMxca7m1f78tV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hx0TKp4jCW7sB_BGURRbuV5nLHAdXjVPEO2qGc2KzFa2AbSchJuxV8jzJOuX1hnXg/AdobeStock_237119664.jpeg"
   
   - name: "Drone and Quadcopters"
  
