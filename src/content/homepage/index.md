@@ -3,7 +3,7 @@
 banner:
   title: "The Ultimate Manufacturing OutSourcing Platform"
   content: "Megamerchant helps Startups and Brands develop Rapid Prototypes, Discover Manufacturers and Vendors, Optimise the whole process and Find Sustainable Alternatives."
-  image: "/images/banner.png"
+  image: "https://github.com/megamerchant/images/blob/main/hero%20page.png?raw=true"
   button:
     enable: true
     label: "Schedule A Meet"
