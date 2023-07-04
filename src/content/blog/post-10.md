@@ -23,7 +23,7 @@ variety of cutting tools.`
 
 Types of CNC Machining 
 
-![Screenshot 2023-07-05 at 1.15.55 AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e54b04be-7122-481f-a445-6b0dfd24277e/Screenshot_2023-07-05_at_1.15.55_AM.png)
+![Screenshot 2023-07-05 at 1.15.55 AM.png](https://github.com/megamerchant/images/blob/main/Screenshot%202023-07-05%20at%201.15.55%20AM.png?raw=true)
 
 [Video illustration](https://www.youtube.com/watch?v=mdRTq2_qI9Y&ab_channel=Hubs)
 
