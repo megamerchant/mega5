@@ -3,7 +3,7 @@ title: "Unveiling Precision: Exploring the World of CNC Machining"
 meta_title: "Manufactring Parts for rapid prototyping for startups"
 description: "Discover the fascinating world of CNC machining, where precision meets innovation. Explore the ins and outs of computer numerical control (CNC) technology, its applications across industries, and the limitless possibilities it offers for efficient and accurate manufacturing processes"
 date: 2023-06-05T05:00:00Z
-image: ""
+image: "https://damassets.autodesk.net/content/dam/autodesk/www/solutions/manufacturing-software/cnc-machining-automation/images/what-is-cnc-machining-thumb-1172x660-v1.jpg"
 categories: ["Manufacturing","Outsourcing"]
 author: "Ravinder"
 tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software" ]
