@@ -3,7 +3,7 @@ title: "Discover the Fascinating World of 3D Printing with Our Engaging Blog"
 meta_title: "Discover the Fascinating World of 3D Printing with Our Engaging Blog"
 description: "Unlock the potential of 3D printing with our captivating blog. Learn the latest techniques, explore innovative designs, and fuel your creativity today."
 date: 2023-06-06T05:00:00Z
-image: " https://ugc.futurelearn.com/uploads/images/84/e7/84e75fcd-2d69-46d8-b5ad-8e446a29797b.png"
+image: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/6-3d-printer-printing-a-heart-sebastian-kaulitzkiscience-photo-library.jpg"
 categories: ["EV", "Automotive"]
 author: "Ravinder"
 tags: ["CNC", "3D Prinitng", "Injection Molding", "Casting", "Desing", "Software" ]
